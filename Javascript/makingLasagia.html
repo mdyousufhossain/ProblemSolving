@@ -94,8 +94,7 @@ export function preparationTimeInMinutes(numberOfLayers) {
  * @returns {number} the total working time
  */
 export function totalTimeInMinutes(numberOfLayers, actualMinutesInOven) {
-  const totalWorkingTime = (numberOfLayers + actualMinutesInOven) + numberOfLayers
-  return totalWorkingTime
+    return preparationTimeInMinutes(numberOfLayers) + actualMinutesInOven;
 }
 
     </script>
