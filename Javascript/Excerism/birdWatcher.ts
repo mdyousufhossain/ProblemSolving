@@ -34,6 +34,7 @@ export function birdsInWeek(birdsPerDay, week) {
 export function fixBirdCountLog(birdsPerDay) {
 for(let i = 0; i < birdsPerDay.length; i++){
   if((i + 2) % 2 === 0){
+   // finding bird
     birdsPerDay.splice(i, 1, birdsPerDay[i] + 1)
   }
 }
