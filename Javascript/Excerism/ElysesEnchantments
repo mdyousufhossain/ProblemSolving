@@ -76,6 +76,7 @@ export function removeItemFromTop(cards) {
 export function insertItemAtBottom(cards, newCard) {
           cards.unshift(newCard)
           return cards
+          //deleteting part
 }
 
 /**
