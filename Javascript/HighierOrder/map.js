@@ -47,7 +47,7 @@ function getRandom(min, max) {
 
 let arr = Array(100).fill().map(() => Math.floor(Math.random() * 41))
 
-let balsal = ["bal,sal,heda,buda,khuna,shuna"]
+let balsal = ["l"]
  
 
 let arr2 = balsal.fill(goodguys.map((x) =>x.id))
