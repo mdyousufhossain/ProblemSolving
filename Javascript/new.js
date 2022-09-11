@@ -4,14 +4,14 @@ class Dog {
         this.age = age 
         this.gen = gene 
     }
-
-    uppcaser(x){ 
-        x.toUpperCase()
-    }
+ 
+   
 
     eat(){
-        if(uppcaser(this.gen) == "ASIA"){
+        if(this.gen.toUpperCase()== "ASIA"){
             console.log('eating shit')
+        } else {
+            console.log('eating dick')
         }
     }
 
@@ -20,8 +20,15 @@ class Dog {
     }
 }
 
-const asianDog = new Dog('sherlina',6,'ASiA')
+const asianDog = new Dog('sherlina',6,'american')
 
-asianDog.eat()
-asianDog.bark()
+
+class somebegger extends Dog {
+    constructor(name){
+        super(name)
+    }
+}
+
+const dude = new somebegger('lina')
+
 
