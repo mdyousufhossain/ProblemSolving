@@ -1,34 +1,43 @@
-class Dog {
-    constructor(name,age,gene){
-        this.name = name
-        this.age = age 
-        this.gen = gene 
-    }
+// class Dog {
+//     constructor(name,age,gene){
+//         this.name = name
+//         this.age = age 
+//         this.gen = gene 
+//     }
  
    
 
-    eat(){
-        if(this.gen.toUpperCase()== "ASIA"){
-            console.log('eating shit')
-        } else {
-            console.log('eating dick')
-        }
-    }
+//     eat(){
+//         if(this.gen.toUpperCase()== "ASIA"){
+//             console.log('eating shit')
+//         } else {
+//             console.log('eating dick')
+//         }
+//     }
 
-    bark(){
-        console.log('barking')
-    }
+//     bark(){
+//         console.log('barking')
+//     }
+// }
+
+// const asianDog = new Dog('sherlina',6,'american')
+
+
+// class somebegger extends Dog {
+//     constructor(name){
+//         super(name)
+//     }
+// }
+
+// const dude = new somebegger('lina')
+
+
+const s = {
+    bal:"khankir pola",
+    bain:"hedar pola"
 }
 
-const asianDog = new Dog('sherlina',6,'american')
 
 
-class somebegger extends Dog {
-    constructor(name){
-        super(name)
-    }
-}
-
-const dude = new somebegger('lina')
-
+console.log(s)
 
