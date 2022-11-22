@@ -82,12 +82,13 @@ const data = [
 
 // let idName = []
 // const store = data.map( (p)=>  console.log(p.Brand))
-const storeFilter = data.filter( (datas) => { return datas.Chatagery === "Cooling Items" })
 
-console.log(storeFilter)
 
-console.log("___________END________")
-console.log("=====================")
-console.log("______Start________")
 
-storeFilter.map((p) => console.log(p.Brand) )
+console.log(data[5].Brand.map((a) => `1 ${a}`))
+
+// console.log("___________END________")
+// console.log("=====================")
+// console.log("______Start________")
+
+// storeFilter.map((p) => console.log(p.Brand) )
