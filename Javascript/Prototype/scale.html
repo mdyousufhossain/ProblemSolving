@@ -4,12 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1 id="catFact"> A Cat Fact will Update this </h1>
-
-    <button onclick="getData()">Click me to a Cat Fact </button>
+    <main style="margin: 2%;">
+        <div class="Container">
+            <div class="__Text__Border">
+                    <div class="__makeMeVisible" id="invisible">
+                        <div class="container">
+                            <div class="shadow"></div>
+                            <div class="cat">
+                                <div class="ear"></div>
+                                <div class="eye"></div>
+                                <div class="mouth"></div>
+                                <div class="nose"></div>
+                                <div class="tail"></div>
+                                <div class="body"></div>
+                                <div class="bubble"></div>
+                            </div>
+                        </div>
+                    </div>
+                <div id="SleepingCats">
+                    <h1 id="catFact"></h1>
+                    
+                    <h1 id="catFact">Press The Button for a Cat fact</h1>
+                </div>
+            </div>
+      
+            <button class="__LG__Btn" onclick="getData()">Click me to a Cat Fact </button>
+           
+        </div>
+    </main>
     <script src="./scalable.js"></script>
 </body>
 </html>
