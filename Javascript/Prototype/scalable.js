@@ -4,14 +4,14 @@
 // }
 
 
-
+// Updating h1 in dom 
 function createingText(newText){
     const CatFact = document.getElementById('catFact')
 
    return CatFact.innerText = newText
 
 }
-
+// Making elemet and hidden/display
 function MakingElVisible(StyleAttr,el){
   let gettingCats = document.getElementById(el);
 

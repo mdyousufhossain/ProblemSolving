@@ -43,6 +43,7 @@ body{
     margin: auto;
     padding: 16px;
     background-color: aliceblue;
+    border-radius: 10px;
 }
 .__Text__Border{
     border: 16px solid aliceblue;
@@ -54,7 +55,7 @@ body{
     color: aliceblue;
     padding: 16px;
     border: 2px solid white;
-    border-radius: 5px;
+    border-radius: 8px;
     font-family: 'Rubik Gemstones', cursive;
     cursor: pointer;
     width: 100%;
