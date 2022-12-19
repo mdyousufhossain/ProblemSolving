@@ -10,8 +10,23 @@
 
 
 body{
-    background-color: rgb(127, 255, 212)
+    background: linear-gradient(90deg,#2CD9FF,#7EFFB2);
+    background-size: 400% 400%;
+    animation : anim 15.5s infinite ease-in-out;
 }
+@keyframes anim {
+    0%{
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+    
+}
+
 ::-webkit-scrollbar{
     width:5px;
     background: rgb(98, 97, 97);
@@ -22,8 +37,7 @@ body{
 
 ::-webkit-scrollbar-thumb {
     background: rgb(33, 19, 96);
-    
-    
+     
 };
 
 ::-webkit-scrollbar-thumb:hover{
@@ -44,6 +58,7 @@ body{
     padding: 16px;
     background-color: aliceblue;
     border-radius: 10px;
+    margin-top: 10%;
 }
 .__Text__Border{
     border: 16px solid aliceblue;
