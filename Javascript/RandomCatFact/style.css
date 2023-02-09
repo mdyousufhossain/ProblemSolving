@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
      font-family: 'Martian Mono', monospace;
-    /* font-family: 'Rubik Gemstones', cursive; */ 
+    /*  */ 
     /* background-color: rgb(127, 255, 212); */
 }
 
@@ -52,6 +52,59 @@ body{
     --font-color : rgb(221, 226, 219) ;
 }
 
+.footer{
+    margin: 2%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0%;
+}
+
+.footer > h4 {
+    padding: 16px;
+    font-family: monospace;
+    color: #2c2c2c;
+}
+
+/* .__cats{
+    opacity: 0.4;
+    margin: 16px;
+    position: absolute;
+    left: 48%;
+    bottom: 0%;
+    transition: 1s ease-in-out;
+} */
+
+.__cats:hover{
+    opacity: 0.7;
+    left: 55%;
+}
+
+.heading{
+    text-align: center;
+    margin: 16px;
+    font-family: 'Rubik Gemstones', cursive;
+    font-size: 64px;
+    letter-spacing: 4px;
+
+    color: rgb(243, 243, 243);
+}
+
+/* .__cats__1{
+    opacity: 0.4;
+    
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
+}
+.__cats__2{
+    opacity: 0.4;
+    
+    position: absolute;
+    left: 0%;
+    bottom: 2%;
+} */
+
 .Container{
     width: 80%;
     margin: auto;
@@ -60,6 +113,7 @@ body{
     border-radius: 10px;
     margin-top: 10%;
 }
+
 .__Text__Border{
     border: 16px solid aliceblue;
     padding: 16px;
@@ -94,7 +148,7 @@ body{
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 10%;
+    top: 16%;
 }
 .cat {
     background-color: #f19b1a;
@@ -250,9 +304,35 @@ body{
         width: 90%;
         margin: auto;
         padding: 16px;
+        margin-top: 100px;
     }
     .__LG__Btn{
         width: 100%;
+    }
+    .__cats{
+        opacity: 0.1;
+        
+        position: absolute;
+        left: 10%; 
+        bottom: 2%;
+    }
+    #catFact{
+        font-size: 16px;
+        text-transform: uppercase;
+        transition: 1s ease-in-out;
+    }
+    .footer{
+        width: 100%;
+        margin: auto;
+        background-color: aliceblue;
+        border-radius: 5px;
+        
+    }
+    
+    .footer > h4 {
+        text-align: center;
+        font-family: monospace;
+        color: #2c2c2c;
     }
 
   }
