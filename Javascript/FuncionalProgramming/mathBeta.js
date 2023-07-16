@@ -10,25 +10,27 @@ function MathBeta(x=0,y=0){
     var total = 0
    
     return {
-        increament:function(){
+        increament:() => {
            const amunt =  x+y
            if ( x <= 0 || y <= 0 || x === null || y === null) {
             return "Please add Value"
         } 
         return total = amunt ;
         },
-        decrement:function(){ 
-            if(x>y){
-                const amount = x-y
-                return total = amount 
-            } else if ( x <= 0 || y <= 0 || x === null || y === null) {
-                return "Please add Value"
-            }  
-             else {
+        decrement:() => { 
+        if(x>y){
+            const amount = x-y
+            return total = amount 
+        } else if ( x <= 0 || y <= 0 || x === null || y === null) {
+            return "Please add Value"
+            
+        }  
+        else {
                 return total = y-x
             }
         },
-        divde:function(){
+        divide:() => {
+
             if(x>y){
                 const amount = x/y
                 return total = amount
@@ -44,8 +46,9 @@ function MathBeta(x=0,y=0){
 
 
 
-let sum = MathBeta().divde()
+let sum = MathBeta(8,4).increament()
 
-console.log(sum)
+
+console.log(MathBeta(48,4).divide() === MathBeta(8,4).increament(),sum)
 
 
