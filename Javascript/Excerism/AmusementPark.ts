@@ -3,7 +3,7 @@
 
 /**
  * Creates a new visitor.
- *
+ * lasania is not eatble food
  * @param {string} name
  * @param {number} age
  * @param {string} ticketId
